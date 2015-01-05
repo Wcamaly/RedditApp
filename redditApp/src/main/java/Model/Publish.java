@@ -22,8 +22,11 @@ public class Publish {
 		this.title = title;
 		this.autor = autor;
 		this.comments = comments;
-		this.thumbail = thumbail;
-		this.bigImage = bigImage; 
+        if (thumbail != "")
+		    this.thumbail = thumbail;
+		else
+            this.thumbail = null;
+        this.bigImage = bigImage;
 		this.date = Utils.ChangeDate(date);
 	}
 	

@@ -1,25 +1,25 @@
 package com.android.redditapp;
 
-import java.util.ArrayList;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import Adapters.AdapterReddit;
-import Extras.VolleyServices;
-import Model.Publish;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.view.Window;
 import android.widget.Toast;
 
-import com.android.volley.DefaultRetryPolicy;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+
+import Adapters.AdapterReddit;
+import Extras.VolleyServices;
+import Model.Publish;
 
 public class RestActivity extends ActionBarActivity {
 	private VolleyServices volleys;

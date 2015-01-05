@@ -1,7 +1,5 @@
 package com.android.redditapp;
 
-import Extras.Utils;
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.widget.ImageView;
@@ -14,8 +12,8 @@ public class ImageActivity extends ActionBarActivity {
 		setContentView(R.layout.activity_image);
 		Bundle im = this.getIntent().getExtras();
 		ImageView img = (ImageView) findViewById(R.id.timage);
-		Bitmap bitmap = Utils.LoadThumbail(im.getString("image"), this);
-		img.setImageBitmap(bitmap);
+		//Bitmap bitmap = Utils.LoadThumbail(im.getString("image"), this);
+		img.setImageResource(R.drawable.abc_ab_bottom_solid_dark_holo);
 		 		
 	}
 

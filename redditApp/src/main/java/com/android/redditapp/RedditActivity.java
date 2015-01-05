@@ -1,8 +1,5 @@
 package com.android.redditapp;
 
-import Adapters.AdapterReddit;
-import Extras.Utils;
-import Model.Publish;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +7,10 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
+
+import Adapters.AdapterReddit;
+import Extras.Utils;
+import Model.Publish;
 
 public class RedditActivity extends RestActivity {
 
