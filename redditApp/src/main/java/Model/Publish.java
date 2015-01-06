@@ -22,7 +22,7 @@ public class Publish {
 		this.title = title;
 		this.autor = autor;
 		this.comments = comments;
-        if (thumbail != "")
+        if (!thumbail.isEmpty() && !thumbail.equalsIgnoreCase("self"))
 		    this.thumbail = thumbail;
 		else
             this.thumbail = null;

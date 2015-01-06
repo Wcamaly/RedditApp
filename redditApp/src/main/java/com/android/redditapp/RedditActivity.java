@@ -46,13 +46,7 @@ public class RedditActivity extends RestActivity {
 					Intent intent= new Intent(Intent.ACTION_VIEW, Uri.parse(item.getBigImage()));
 					startActivity(intent);
 				}
-				
-				
-				
-				
-				
-				
-				
+
 			}
 		});
 	
