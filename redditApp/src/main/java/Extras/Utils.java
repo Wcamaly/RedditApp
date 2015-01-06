@@ -7,11 +7,11 @@ import com.android.volley.RequestQueue;
 import java.util.Date;
 
 public class Utils {
-	private static VolleyServices volleys;
+
+	/*	private static VolleyServices volleys;
 	private static RequestQueue rq;
 	private static Bitmap thumbail;
-
-	/*public static Bitmap LoadThumbail (String url, Context context){
+public static Bitmap LoadThumbail (String url, Context context){
 		volleys = VolleyServices.getInstance(context);
 		rq = volleys.getRequestQueue();
 
