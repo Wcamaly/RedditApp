@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/RedditApp.iml" filepath="$PROJECT_DIR$/RedditApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/main/main.iml" filepath="$PROJECT_DIR$/main/main.iml" />
       <module fileurl="file://$PROJECT_DIR$/redditApp/redditApp.iml" filepath="$PROJECT_DIR$/redditApp/redditApp.iml" />
     </modules>
   </component>
